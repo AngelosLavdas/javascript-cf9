@@ -42,4 +42,13 @@ let str4 = "The quick brown fox jumps over the lazy dog.";
 let newStr = str4.replace("fox", "cat");
 let newStr2 = str4.replace(/the/gi, "a"); 
 
+// Traverse string
+for (let i = 0; i < str1.length; i++) {
+    console.log(str1[i]);
+}
+
+// Enhanced for
+for (const char of str1) {
+    console.log(char);
+}
 
