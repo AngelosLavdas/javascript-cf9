@@ -52,3 +52,10 @@ for (const char of str1) {
     console.log(char);
 }
 
+// substring
+console.log(str1.substring(1, 4)); // "ell"
+
+// slice
+console.log(str1.slice(1, 4)); // "ell"
+console.log(str1.slice(-3)); // "llo"
+
